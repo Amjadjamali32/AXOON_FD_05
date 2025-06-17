@@ -3,17 +3,18 @@ import aboutImage from "../assets/images/about.png";
 const AboutSection = () => {
   return (
     <section
-      className="py-16 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900 font-roboto min-h-[80vh] flex items-center"
+      className="py-6 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900 font-roboto min-h-[80vh] flex items-center"
       id="about"
     >
-      <div className="max-w-7xl mx-auto w-full">
+      <div className="max-w-7xl mx-auto w-full px-4">
         <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
-          <div className="w-full lg:w-1/2 h-full flex items-center">
-            <div className="relative w-5/6 h-64 md:h-80 lg:h-full rounded-xl overflow-hidden">
+          {/* Image container - now fully responsive */}
+          <div className="w-full lg:w-1/2 flex justify-center">
+            <div className="relative w-full max-w-md lg:max-w-none rounded-xl overflow-hidden aspect-square lg:aspect-auto">
               <img
                 src={aboutImage}
                 alt="About me"
-                className="w-full h-full object-center"
+                className="w-full h-full object-cover object-center"
               />
             </div>
           </div>

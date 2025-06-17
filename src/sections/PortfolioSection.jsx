@@ -40,10 +40,10 @@ const PortfolioSection = () => {
 
   return (
     <section
-      className="py-12 px-4 sm:px-6 lg:px-8 bg-white font-roboto"
+      className="py-6 px-4 sm:px-6 lg:px-8 bg-white font-roboto"
       id="portfolio"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-4">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-12">
           <div>
             <h2 className="text-base font-semibold">Recent Projects</h2>

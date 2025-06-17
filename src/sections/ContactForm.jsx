@@ -8,7 +8,7 @@ const ContactForm = () => {
   ];
 
   return (
-    <section className="py-8 px-4 sm:px-6 lg:px-8 bg-gray-50 font-roboto" id="contact">
+    <section className="py-6 px-4 sm:px-6 lg:px-8 bg-gray-50 font-roboto" id="contact">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-base font-semibold">Get In Touch</h2>

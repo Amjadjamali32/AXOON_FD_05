@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 font-roboto" style={{backgroundColor: "#F5FCFF"}} id="testimonials">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-4">
         <div className="mb-12">
           <h2 className="text-base font-semibold">Clients Feedback</h2>
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">

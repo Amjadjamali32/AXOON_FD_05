@@ -88,7 +88,7 @@ const SkillsSection = () => {
 
   return (
     <section className="py-2 px-4 sm:px-6 lg:px-8 bg-white dark:bg-gray-900 font-roboto">
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-4">
         <div className="text-left mb-12 ml-6">
           <h2 className="text-base font-semibold dark:text-violet-400">
             My Skills
